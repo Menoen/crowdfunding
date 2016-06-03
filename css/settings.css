@@ -1,0 +1,101 @@
+/**{
+    width: 100%;
+}*/
+/*个人设置*/
+.setting{
+    width: 1100px;
+    min-height: 875px;
+    margin: 0 auto;
+    background-color: #FEFEFE;
+    border-bottom: 1px solid #D4D4D4; 
+    /*padding-bottom: 18px;*/
+    position: relative;
+}
+.setting>p{
+    color: #333333;
+    font-family: Microsoft Yahei;
+    font-size: 22px;
+    position: absolute;
+    left: 25px;
+    top: 25px;
+}
+.setting>hr{
+    background-color: #e2a71a;
+    height: 2px;
+    left: 25px;
+    top: 55px;
+    width: 1050px;
+    border: 0;
+    position: absolute;
+}
+.setting ul{
+    left: 18px;
+    top: 80px;
+    font-size: 14px;
+    font-family: Microsoft Yahei;
+    position: absolute;
+}
+.sb_info>p{
+    text-align: right;
+    width: 95px;
+    float: left;
+    padding-top: 4px;
+}
+.sb_info>input,.sb_info>textarea{
+    height: 30px;
+    width: 220px;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    margin-left: 5px;
+}
+.sb_info a{
+    margin-left: 24px;
+    color: #449bbf;
+}
+.sb_info a:hover{
+    text-decoration: underline;
+}
+li{
+    margin-bottom: 25px;
+}
+/*头像*/
+.user-img{
+    width: 160px;
+    height: 160px;
+    background: #e2a71a;
+    top: 83px;
+    left: 478px;
+    position: absolute;
+}
+.user-img>div{
+    background-color: #908568;
+    height: 29px;
+    position: relative;
+    top: 131px;
+    text-align: center;
+    color: #fefdfd;
+    line-height: 26px;
+}
+.user-img>div>a{
+    color: #fefdfd;
+    font-size: 14px;
+    font-family: Microsoft Yahei;
+}
+.user-img>div>a:hover{
+    text-decoration: none;
+}
+.sb_save{
+    position: absolute;
+    left: 122px;
+    width: 70px;
+    height: 25px;
+    border-radius: 3px;
+    text-align: center;
+    color: #fff;
+    line-height: 35px;
+    letter-spacing: .5em;
+    bottom:80px;
+    display: block;
+background: url();
+}
+ 
