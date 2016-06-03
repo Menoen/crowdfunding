@@ -8,6 +8,7 @@
     margin: 0 auto;
     background-color: #FEFEFE;
     border-bottom: 1px solid #D4D4D4; 
+    display: none;
 }
 
 .title,.time{
@@ -18,7 +19,7 @@
     width: 750px;
     height: 38px;
     background-color: #e5f4fa;
-    font-family:微软雅黑;
+    font-family:Microsoft Yahei;
     font-weight: bold;
     font-size:16px;
     color: #3090b8;
@@ -65,7 +66,7 @@
     width: 670px;
     line-height: 28px;
     text-decoration: none;
-    font-family: 微软雅黑;
+    font-family: Microsoft Yahei;
     text-overflow:ellipsis;
     white-space:nowrap;
     overflow:hidden;
@@ -134,4 +135,84 @@
 #pages input{
 	background: #FFFFFF;
 	border:1px solid #CECECE;
+}
+
+/*新页面左*/
+.detail{
+    width: 1100px;
+    /*height: 570px;*/
+    margin: 0 auto;
+    background-color: #FEFEFE;
+    border-bottom: 1px solid #D4D4D4; 
+    display: block;
+    padding-top: 14px;
+    padding-bottom: 18px;
+    position: relative;
+}
+.detail-left{
+    margin-left: 18px;
+    width: 750px;
+    border: 1px solid #a4ddf5;
+    padding: 0 30px 8px 48px;
+
+}
+#detail-time{
+    font-family: Microsoft Yahei;
+    font-size: 14px;
+    color: #fcc43d;
+    font-weight: normal;
+    float: right;
+    width: 100%;
+    text-align: right;
+    margin-top:10px;
+    margin-right: 45px; 
+    letter-spacing: 0;
+}
+.detail-left>p{
+    margin-top: 25px;
+    margin-left: -48px;
+    text-align: center;
+    font-family: Microsoft Yahei;
+    font-size: 18px;
+    font-weight: bold;
+    color: #3090b8;
+    letter-spacing: 1.8px;
+}
+.detail-left>hr{
+    background-color: #3090b8;
+    height: 2px;
+    margin-top: 13px;
+    margin-left: -13px;
+    width: 780px;
+    border: 0;
+}
+.detail-left>span{
+    font-size: 14px;
+    font-family: Microsoft Yahei;
+    color: #333333;
+    line-height: 32px;
+}
+/*新页面右*/
+.detail-right{
+    text-align: center;
+    width: 210px;
+    position: absolute;
+    top: 2px;
+    left: 868px;
+}
+.detail-right>div{
+    font-family: Microsoft Yahei;
+    font-size: 14px;
+    width: 210px;
+    margin-top: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.detail-right>div>a{
+    text-align: center;
+    width: 210px;
+    color: #333333;
+}
+.detail-right>div>a:hover{
+    color: #fcc43d;
 }
